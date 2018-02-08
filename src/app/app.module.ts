@@ -1,16 +1,17 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
-//import { MaterialModule } from './material/material.module';
+import { RouterModule, Routes } from '@angular/router';
 
 import { AppComponent } from './app.component';
-//import { NavComponent } from './nav/nav.component';
-//import { ContentComponent } from './content/content.component';
+import { AboutComponent } from './about/about.component';
+
 
 
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    AboutComponent
   ],
   imports: [
     BrowserModule
