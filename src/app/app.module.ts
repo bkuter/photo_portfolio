@@ -4,6 +4,7 @@ import { RouterModule, Routes } from '@angular/router';
 
 import { AppComponent } from './app.component';
 import { AboutComponent } from './about/about.component';
+import { ContentComponent } from './content/content.component';
 
 
 
@@ -11,7 +12,8 @@ import { AboutComponent } from './about/about.component';
 @NgModule({
   declarations: [
     AppComponent,
-    AboutComponent
+    AboutComponent,
+    ContentComponent
   ],
   imports: [
     BrowserModule
